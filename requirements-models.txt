@@ -1,0 +1,9 @@
+-r requirements-reproduction.txt
+torch>=2.0
+pytorch-lightning>=2.0
+biopython
+pyyaml
+tqdm
+esm
+matplotlib
+

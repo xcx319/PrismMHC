@@ -1,0 +1,304 @@
+{
+  "status": "PASS",
+  "sections": {
+    "el": [
+      {
+        "scope": "source_clean_supported",
+        "model": "PrismMHC",
+        "n": 168086,
+        "positive": 6146,
+        "n_hla": 63,
+        "auc": 0.925991783504764,
+        "ap": 0.627269592658036,
+        "ppvn": 0.6158477058249268
+      },
+      {
+        "scope": "source_clean_supported",
+        "model": "MuNIS",
+        "n": 168086,
+        "positive": 6146,
+        "n_hla": 63,
+        "auc": 0.9040569416199553,
+        "ap": 0.5490266898447054,
+        "ppvn": 0.5506020175724048
+      },
+      {
+        "scope": "source_clean_supported",
+        "model": "BigMHC-EL",
+        "n": 168086,
+        "positive": 6146,
+        "n_hla": 63,
+        "auc": 0.891612937237846,
+        "ap": 0.5274342675815764,
+        "ppvn": 0.525382362512203
+      },
+      {
+        "scope": "source_clean_supported",
+        "model": "TransPHLA",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.8896559547540176,
+        "ap": 0.48762377570197296,
+        "ppvn": 0.5304150085275725
+      },
+      {
+        "scope": "source_clean_supported",
+        "model": "NetMHCpan-EL",
+        "n": 168086,
+        "positive": 6146,
+        "n_hla": 63,
+        "auc": 0.8564052645958351,
+        "ap": 0.5196900807212703,
+        "ppvn": 0.5366091767002928
+      },
+      {
+        "scope": "source_clean_supported",
+        "model": "MHCflurry-2.0",
+        "n": 168086,
+        "positive": 6146,
+        "n_hla": 63,
+        "auc": 0.8621291643572737,
+        "ap": 0.523023177912955,
+        "ppvn": 0.5439310120403514
+      },
+      {
+        "scope": "source_clean_supported",
+        "model": "MixMHCpred-3.0",
+        "n": 168086,
+        "positive": 6146,
+        "n_hla": 63,
+        "auc": 0.8301241549089082,
+        "ap": 0.5158325389509627,
+        "ppvn": 0.5301008786202408
+      },
+      {
+        "scope": "common_55",
+        "model": "PrismMHC",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.9310548655426323,
+        "ap": 0.6369727852100384,
+        "ppvn": 0.6221337881371992
+      },
+      {
+        "scope": "common_55",
+        "model": "MuNIS",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.9037838947143639,
+        "ap": 0.5556841786501712,
+        "ppvn": 0.5607352662497631
+      },
+      {
+        "scope": "common_55",
+        "model": "BigMHC-EL",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.8900032460009112,
+        "ap": 0.5251672020765012,
+        "ppvn": 0.5218874360432064
+      },
+      {
+        "scope": "common_55",
+        "model": "TransPHLA",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.8896559547540176,
+        "ap": 0.48762377570197296,
+        "ppvn": 0.5304150085275725
+      },
+      {
+        "scope": "common_55",
+        "model": "NetMHCpan-EL",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.8536333958103846,
+        "ap": 0.5194038411134864,
+        "ppvn": 0.5342050407428464
+      },
+      {
+        "scope": "common_55",
+        "model": "MHCflurry-2.0",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.8586719589681078,
+        "ap": 0.5226000943575286,
+        "ppvn": 0.5469016486640137
+      },
+      {
+        "scope": "common_55",
+        "model": "MixMHCpred-3.0",
+        "n": 143546,
+        "positive": 5277,
+        "n_hla": 55,
+        "auc": 0.8239762614698625,
+        "ap": 0.504043479592248,
+        "ppvn": 0.5218874360432064
+      }
+    ],
+    "ba": [
+      {
+        "model": "BA-S2+D4",
+        "n": 1541,
+        "binders": 580,
+        "pearson": 0.6596640819371767,
+        "spearman": 0.6536750498043299,
+        "mae": 0.19794427903379513,
+        "auc": 0.8512711256234525,
+        "ap": 0.7492100007909794
+      },
+      {
+        "model": "NetMHCpan-BA",
+        "n": 1541,
+        "binders": 580,
+        "pearson": 0.6403068416864648,
+        "spearman": 0.6378167440261023,
+        "mae": 0.20517957813823887,
+        "auc": 0.8399843912591052,
+        "ap": 0.7296957177998242
+      },
+      {
+        "model": "MHCnuggets",
+        "n": 1541,
+        "binders": 580,
+        "pearson": 0.6326191266561474,
+        "spearman": 0.6274864388604356,
+        "mae": 0.20076277219807,
+        "auc": 0.8314964656069468,
+        "ap": 0.7186226864759695
+      },
+      {
+        "model": "MHCflurry-2.0",
+        "n": 1541,
+        "binders": 580,
+        "pearson": 0.5281432532598154,
+        "spearman": 0.5414856466539356,
+        "mae": 0.22870755987890432,
+        "auc": 0.7965014891097636,
+        "ap": 0.6550541487525803
+      },
+      {
+        "model": "ImmuneApp-BA",
+        "n": 1541,
+        "binders": 580,
+        "pearson": 0.598526752768232,
+        "spearman": 0.5942280813891907,
+        "mae": 0.21523681880767245,
+        "auc": 0.8143654239477556,
+        "ap": 0.703450215642693
+      }
+    ],
+    "structure": [
+      {
+        "model": "ours",
+        "n": 37,
+        "ca_median": 0.7624145150184631,
+        "allatom_median": 1.6188310384750366,
+        "seconds_median": 0.6594028268009424,
+        "median_target_paired_speedup": 1.0
+      },
+      {
+        "model": "af3",
+        "n": 37,
+        "ca_median": 0.930079008849194,
+        "ca_paired_wilcoxon_p": 0.01519277501211036,
+        "allatom_median": 1.8126999179178007,
+        "allatom_paired_wilcoxon_p": 0.03489584955968894,
+        "seconds_median": 30.955891302,
+        "seconds_paired_wilcoxon_p": 1.4551915228366852e-11,
+        "median_target_paired_speedup": 46.971284725888665
+      },
+      {
+        "model": "mhcfine",
+        "n": 37,
+        "ca_median": 1.1000605707608877,
+        "ca_paired_wilcoxon_p": 0.0004335786070441827,
+        "allatom_median": 2.4544408489633907,
+        "allatom_paired_wilcoxon_p": 0.00011242658365517855,
+        "seconds_median": 21.62136803,
+        "seconds_paired_wilcoxon_p": 1.4551915228366852e-11,
+        "median_target_paired_speedup": 32.81882789347959
+      },
+      {
+        "model": "motmaen",
+        "n": 37,
+        "ca_median": 1.227049886607882,
+        "ca_paired_wilcoxon_p": 2.158049028366804e-08,
+        "allatom_median": 2.34790952769268,
+        "allatom_paired_wilcoxon_p": 3.565073711797595e-07,
+        "seconds_median": 7.902857271,
+        "seconds_paired_wilcoxon_p": 1.4551915228366852e-11,
+        "median_target_paired_speedup": 12.038198402311062
+      },
+      {
+        "model": "pandora",
+        "n": 37,
+        "ca_median": 1.2349936506275112,
+        "ca_paired_wilcoxon_p": 2.9613147489726543e-08,
+        "allatom_median": 2.884582543167117,
+        "allatom_paired_wilcoxon_p": 2.459273673593998e-09,
+        "seconds_median": 95.711172936,
+        "seconds_paired_wilcoxon_p": 1.4551915228366852e-11,
+        "median_target_paired_speedup": 143.3966859064373
+      },
+      {
+        "model": "tfold",
+        "n": 37,
+        "ca_median": 1.0407533378241456,
+        "ca_paired_wilcoxon_p": 0.002268537733471021,
+        "allatom_median": 2.306129248265129,
+        "allatom_paired_wilcoxon_p": 0.0006844939780421555,
+        "seconds_median": 2.028515538,
+        "seconds_paired_wilcoxon_p": 1.4551915228366852e-11,
+        "median_target_paired_speedup": 3.0774975048836994
+      }
+    ],
+    "imm": {
+      "cohorts": [
+        {
+          "cohort": "Mix",
+          "n": 49393,
+          "positive": 2471,
+          "maximum_score_error": 0.0,
+          "auc": 0.9240043634069619,
+          "ap": 0.43822710236559886
+        },
+        {
+          "cohort": "P",
+          "n": 2005,
+          "positive": 401,
+          "maximum_score_error": 0.0,
+          "auc": 0.6254936225520986,
+          "ap": 0.2984592619758383
+        },
+        {
+          "cohort": "Patients",
+          "n": 243764,
+          "positive": 100,
+          "maximum_score_error": 0.0,
+          "auc": 0.9721656050955413,
+          "ap": 0.05181069927494242
+        }
+      ],
+      "patient_metrics": {
+        "patients": 70,
+        "positive_patients": 53,
+        "mean_ap": 0.2667157655467254,
+        "median_ap": 0.1274907489532166,
+        "hits20": 53,
+        "success20": 34,
+        "hits50": 73,
+        "success50": 44,
+        "hits100": 86,
+        "success100": 47
+      }
+    }
+  }
+}
