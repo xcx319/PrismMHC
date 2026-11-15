@@ -47,6 +47,23 @@ python data/supplementary_data/Data_4/reproduction/verify_current.py
 python data/supplementary_data/Data_6/reproduction/reproduce.py
 ```
 
+The additional IMM uncertainty replay uses NumPy, pandas, SciPy and scikit-learn, all listed in `requirements-reproduction.txt`.
+
+```bash
+python data/supplementary_data/Data_6/expert_revision_20261116/replay_intervals.py
+```
+
+Its default mode reconstructs all 168 patient point differences, confidence intervals and permutation P values, including regeneration of the stored patient sampling indices. It recomputes point estimates for the 10 current panel endpoints and 16 historical P/Mix component contrasts, and verifies their intervals using the complete stored bootstrap metric arrays. It also regenerates initial pooled bootstrap samples to connect those arrays to the supplied predictions and seeds, covering 96 current-panel resamples and 16 historical-panel resamples in total. `INTERVAL_REPLAY_QA.json` reports those counts explicitly.
+
+Full regeneration of the pooled bootstrap arrays is available through the following options. Each current panel has 5,000 draws and each historical P/Mix panel has 10,000 draws.
+
+```bash
+python data/supplementary_data/Data_6/expert_revision_20261116/replay_intervals.py --regenerate-current
+python data/supplementary_data/Data_6/expert_revision_20261116/replay_intervals.py --regenerate-historical
+```
+
+The same directory contains `reproduce_tables.py` for the SI tables and Success@k bootstrap/McNemar calculations, `replay_paired_tests.py` for 84 exact AP/count tests, and `audit_tie_order.py` for the published versus peptide-lexical tie-order comparison. Its README describes the fixed inputs and sampling protocols.
+
 ## Figures and molecular source data
 
 | Figure content | Source directories |
