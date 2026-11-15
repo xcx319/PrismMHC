@@ -21,6 +21,10 @@ The downloader uses the versioned GitHub release `manuscript-2026-11-16`, verifi
 
 See [REPRODUCTION.md](REPRODUCTION.md) for individual commands, exact data populations and the figure-source index.
 
+## Figure source refresh
+
+The ten main figures have updated typography, spacing and independent numbering, including separate immunogenicity and patient-prioritization figures. [FIGURES.md](FIGURES.md) provides the number map, source-bundle download and portable rendering command.
+
 ## Code layout
 
 - `scripts/` contains the portable release downloader, file verifier and numerical reproduction entry point.
